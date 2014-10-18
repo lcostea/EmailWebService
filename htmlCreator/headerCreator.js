@@ -1,4 +1,0 @@
-function createHeader(headerJson)
-{
-    
-}

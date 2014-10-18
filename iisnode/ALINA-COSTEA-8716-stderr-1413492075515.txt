@@ -1,6 +1,0 @@
-SyntaxError: Unexpected token {
-    at Object.parse (native)
-    at IncomingMessage.<anonymous> (C:\Users\Liviu\Documents\My Web Sites\TestWebService\node_modules\express\node_modules\connect\lib\middleware\json.js:76:27)
-    at IncomingMessage.emit (events.js:92:17)
-    at _stream_readable.js:943:16
-    at process._tickCallback (node.js:419:13)
