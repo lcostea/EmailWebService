@@ -7,6 +7,45 @@
         "email":"test@travelsale.ro"
       }
   ],
+  "from":"no-reply@travelsale.ro"
   "subject":"Look To Book - ",
-  "htmlMessage":"<html><body>Test email from TravelSale</body></html>"
+  "reportDate":"10/19/2014 12:00:00 AM"
+  "tableHeader":[
+      {"element":"AgencyId"},
+      {"element":"AgencyName"},
+      {"element":"AgencyCity"},
+      {"element":"Rsv"},
+      {"element":"SystemAmount"},
+      {"element":"PrevAmount"},
+      {"element":"Status"}
+  ],
+  "tableContent":[
+      {"row":[
+          {"value":"2580"},
+          {"value":"INTERNATIONAL TRAVEL"},
+          {"value":"BUCURESTI"},
+          {"value":"7"},
+          {"value":"3157.8900"},
+          {"value":"0.0000"},
+          {"value":"1.NEW"}
+          ]},
+          {"row":[
+          {"value":"1591"},
+          {"value":"EURO MAGIC"},
+          {"value":"BUCURESTI"},
+          {"value":"43"},
+          {"value":"20101.9600"},
+          {"value":"20101.9600"},
+          {"value":"4.No Change"}
+          ]},
+          {"row":[
+          {"value":"2536"},
+          {"value":"Princess Travel"},
+          {"value":"Constanta"},
+          {"value":"15"},
+          {"value":"3632.6200"},
+          {"value":"3632.6200"},
+          {"value":"4.No Change"}
+          ]}
+  ]
 }
