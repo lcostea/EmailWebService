@@ -7,9 +7,9 @@
         "email":"test@travelsale.ro"
       }
   ],
-  "from":"no-reply@travelsale.ro"
+  "from":"no-reply@travelsale.ro",
   "subject":"Look To Book - ",
-  "reportDate":"10/19/2014 12:00:00 AM"
+  "reportDate":"10/19/2014 12:00:00 AM",
   "tableHeader":[
       {"element":"AgencyId"},
       {"element":"AgencyName"},

@@ -17,7 +17,9 @@
   ],
   "dependencies": {
     "jade": "*",
-    "express": "~3.1.0"
+    "express": "~3.1.0",
+    "node-json2html":"*",
+    "node-ses":"*"
   },
   "noAnalyze": true,
   "license": "Apache",

@@ -1,13 +1,15 @@
-var emailSender = require('../emailSender/emailSender')
-
+var emailSender = require('../emailSender/emailSender');
+var htmlCreator = require('../htmlCreator/htmlCreator');
 
 exports.sendDailyEmail = function (req, res) {
     var jsonEmailData = req.body;
     var today = getCurrentDate();
 
-    emailSender.sendEmail(jsonEmailData.to, jsonEmailData.subject + today, jsonEmailData.htmlMessage)
+    var result = htmlCreator.getHtml(jsonEmailData.tableHeader, jsonEmailData.tableContent);
 
-    res.send({ result: jsonEmailData.subject + today });
+    //emailSender.sendEmail(jsonEmailData.to, jsonEmailData.subject + today, jsonEmailData.htmlMessage)
+
+    res.send(result);
 }
 
 exports.sendWeeklyEmail = function(req, res)

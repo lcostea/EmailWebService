@@ -1,0 +1,3 @@
+Express server listening on port \\.\pipe\5364cebb-b466-4e66-8873-d915f1b238b6
+[90mPOST /emailLookToBookDaily [32m200 [90m0ms[0m
+[90mPOST /emailLookToBookDaily [32m200 [90m0ms[0m
