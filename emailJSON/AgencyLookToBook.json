@@ -1,0 +1,219 @@
+{
+  "to": [
+      {
+        "email":"liviu@travelsale.ro"
+      },
+      {
+        "email":"test@travelsale.ro"
+      }
+  ],
+  "from":"no-reply@travelsale.ro",
+  "subject":"Look To Book - ",
+  "table":[
+    {
+        "Agency":  "CORAL TOURS, ORADEA",
+        "Searches":  58,
+        "Reservations":  2
+    },
+    {
+        "Agency":  "RARES TOUR, PIATRA NEAMT",
+        "Searches":  19,
+        "Reservations":  0
+    },
+    {
+        "Agency":  "SUNNY TRAVEL, Bucuresti",
+        "Searches":  16,
+        "Reservations":  0
+    },
+    {
+        "Agency":  "AIR EXPRESS, CLUJ NAPOCA",
+        "Searches":  14,
+        "Reservations":  0
+    },
+    {
+        "Agency":  "CALATORESCU, TIMISOARA",
+        "Searches":  13,
+        "Reservations":  0
+    },
+    {
+        "Agency":  "MAXI TOURISM, BUCURESTI",
+        "Searches":  11,
+        "Reservations":  0
+    },
+    {
+        "Agency":  "Quattro Magic, Constanta",
+        "Searches":  7,
+        "Reservations":  0
+    },
+    {
+        "Agency":  "PARADISE TRAVEL, BUCURESTI",
+        "Searches":  6,
+        "Reservations":  0
+    },
+    {
+        "Agency":  "CHEAP TRAVEL, BUCURESTI",
+        "Searches":  6,
+        "Reservations":  0
+    },
+    {
+        "Agency":  "ATELIERUL DE CALATORII, SECTOR 1",
+        "Searches":  6,
+        "Reservations":  0
+    },
+    {
+        "Agency":  "TRAVEL SHOP, BUCURESTI",
+        "Searches":  6,
+        "Reservations":  1
+    },
+    {
+        "Agency":  "MAGIC TOURS, ORADEA",
+        "Searches":  6,
+        "Reservations":  0
+    },
+    {
+        "Agency":  "HOLIDAY \u0026 BUSINESS, ARAD",
+        "Searches":  5,
+        "Reservations":  2
+    },
+    {
+        "Agency":  "OPEN TOUR, BUCURESTI",
+        "Searches":  4,
+        "Reservations":  0
+    },
+    {
+        "Agency":  "ROBINSON CRUSOE, Timisoara",
+        "Searches":  4,
+        "Reservations":  0
+    },
+    {
+        "Agency":  "TOUROPA, CRAIOVA",
+        "Searches":  4,
+        "Reservations":  0
+    },
+    {
+        "Agency":  "ROM TUR INTERNATIONAL, ORADEA",
+        "Searches":  3,
+        "Reservations":  0
+    },
+    {
+        "Agency":  "INTERNATIONAL TRAVEL \u0026 TOURISM, Bucuresti",
+        "Searches":  3,
+        "Reservations":  0
+    },
+    {
+        "Agency":  "KA TOUR, BAIA MARE",
+        "Searches":  3,
+        "Reservations":  0
+    },
+    {
+        "Agency":  "EVANTIA TOUR, CONSTANTA",
+        "Searches":  3,
+        "Reservations":  0
+    },
+    {
+        "Agency":  "FIRST CLASS TRAVEL, ORADEA",
+        "Searches":  2,
+        "Reservations":  0
+    },
+    {
+        "Agency":  "DYNAMIC TRAVEL, BRASOV",
+        "Searches":  2,
+        "Reservations":  0
+    },
+    {
+        "Agency":  "ALEGROS TOURS, ORADEA",
+        "Searches":  2,
+        "Reservations":  0
+    },
+    {
+        "Agency":  "LIFE TOUR, SUCEAVA",
+        "Searches":  2,
+        "Reservations":  0
+    },
+    {
+        "Agency":  "LITOS TRAVEL, BUCURESTI",
+        "Searches":  2,
+        "Reservations":  0
+    },
+    {
+        "Agency":  "RA TRAVEL, TIMISOARA",
+        "Searches":  2,
+        "Reservations":  0
+    },
+    {
+        "Agency":  "ROCK\u0027N\u0027ROLL TRAVEL SRL, SECT. 3, BUCURESTI",
+        "Searches":  1,
+        "Reservations":  0
+    },
+    {
+        "Agency":  "SKYLINE, CRAIOVA",
+        "Searches":  1,
+        "Reservations":  0
+    },
+    {
+        "Agency":  "PARALELA45 BACAU, Bacau",
+        "Searches":  1,
+        "Reservations":  0
+    },
+    {
+        "Agency":  "PRISMA TOUR, IASI",
+        "Searches":  1,
+        "Reservations":  0
+    },
+    {
+        "Agency":  "ALFATRAVEL, IASI",
+        "Searches":  1,
+        "Reservations":  0
+    },
+    {
+        "Agency":  "ARRA TOUR, CONSTANTA",
+        "Searches":  1,
+        "Reservations":  0
+    },
+    {
+        "Agency":  "BERENZ TRAVEL Arad, Arad",
+        "Searches":  1,
+        "Reservations":  0
+    },
+    {
+        "Agency":  "BLC Tour, Constanta",
+        "Searches":  1,
+        "Reservations":  0
+    },
+    {
+        "Agency":  "BTOUR, BUCURESTI",
+        "Searches":  1,
+        "Reservations":  0
+    },
+    {
+        "Agency":  "ESCAPE TOUR, Bucuresti, sect. 6",
+        "Searches":  1,
+        "Reservations":  0
+    },
+    {
+        "Agency":  "EURO MAGIC, BUCURESTI",
+        "Searches":  1,
+        "Reservations":  1
+    },
+    {
+        "Agency":  "GAMMA TOUR, ZALAU",
+        "Searches":  1,
+        "Reservations":  1
+    },
+    {
+        "Agency":  "CLASSY ROMANIA, DISTRICT 1",
+        "Searches":  1,
+        "Reservations":  0
+    },
+    {
+        "Agency":  "Demo, Demo",
+        "Searches":  1,
+        "Reservations":  0
+    },
+    {
+        "Agency":  "Z TOUR BUCURESTI, CLUJ NAPOCA",
+        "Searches":  1,
+        "Reservations":  0
+    }
+]
+}

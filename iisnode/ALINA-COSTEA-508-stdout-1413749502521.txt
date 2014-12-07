@@ -1,3 +1,0 @@
-Express server listening on port \\.\pipe\9dea7907-f238-495e-9623-4bef7c784c39
-[90mPOST /emailLookToBookDaily [32m200 [90m0ms - 472[0m
-[90mPOST /emailLookToBookDaily [32m200 [90m0ms - 472[0m

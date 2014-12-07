@@ -3,8 +3,9 @@ var json2Html = require('node-json2html');
 exports.getHtml = function (headerJson, contentJson) {
     var result = _getHeader(headerJson);
     result += _getBody(contentJson);
-    var startHtml = "<table>";
-    var endHtml = "</table>"
+    var tableStyle = "table, th, td {border: 1px solid black;border-collapse: collapse;}th, td {padding: 3px;}";
+    var startHtml = "<html><head><style>" + tableStyle + "</style></head><table>";
+    var endHtml = "</table></html>"
 
 
     return startHtml + result + endHtml;

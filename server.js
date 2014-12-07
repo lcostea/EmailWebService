@@ -8,7 +8,7 @@ var express = require('express')
   , user = require('./routes/user')
   , http = require('http')
   , path = require('path')
-  , email=require('./routes/emailLookToBook');
+  , emailController = require('./routes/emailController');
 
 var app = express();
 
@@ -33,8 +33,8 @@ app.configure('development', function(){
 
 app.get('/', routes.index);
 
-app.post('/emailLookToBookDaily', email.sendDailyEmail);
-app.get('/emailLookToBookDaily', email.getEmail);
+app.post('/email', emailController.sendDailyEmail);
+app.get('/email', emailController.transformToHtmlJson);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log("Express server listening on port " + app.get('port'));
