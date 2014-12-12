@@ -3,9 +3,8 @@ var json2Html = require('node-json2html');
 exports.getHtml = function (headerJson, contentJson) {
     var result = _getHeader(headerJson);
     result += _getBody(contentJson);
-    var tableStyle = "table, th, td {border: 1px solid black;border-collapse: collapse;}th, td {padding: 3px;}";
-    var startHtml = "<html><head><style>" + tableStyle + "</style></head><table>";
-    var endHtml = "</table></html>"
+    var startHtml = "<table cellpadding=\"8\" style=\"border: 1px solid #dddddd;;border-collapse: collapse;font-size: 12px;font-family: 'Segoe UI', Verdana, Helvetica, Sans-Serif;\">";
+    var endHtml = "</table>"
 
 
     return startHtml + result + endHtml;
@@ -14,7 +13,7 @@ exports.getHtml = function (headerJson, contentJson) {
 var _getHeader = function (headerJson) {
         var headerTransform = { 'tag': 'th', 'html': '${element}' };
         var headerHtml = json2Html.transform(headerJson, headerTransform);
-        return '<tr>' + headerHtml + '</tr>';
+        return '<tr style=\"background-color: #f9f9f9;\">' + headerHtml + '</tr>';
     }
 
     var _getBody = function (contentJson) {

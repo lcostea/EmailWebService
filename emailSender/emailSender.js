@@ -1,17 +1,19 @@
 exports.sendEmail = function(toAddresses, fromAddress, subject, htmlText){
     
     var ses = require('node-ses');
-    var client = ses.createClient({ key: 'key', secret: 'secret_key' });
+    var client = ses.createClient({ key: 'key', secret: 'secret' });
 
-    for (var toAddress in toAddresses)
+    for (var i = 0; i < toAddresses.length; i++) 
     {
+		console.log(JSON.stringify(toAddresses[i]));
+		
         client.sendemail({
-           to: toAddress
+           to: toAddresses[i].email
          , from: fromAddress
          , subject: subject
          , message: htmlText
          , altText: 'error sending email'
-        }, function (err, data, res) {
+        }, function (err, data, res) {console.log("Error sending email: " + JSON.stringify(err));
         });
     }
 }

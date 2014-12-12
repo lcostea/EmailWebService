@@ -30,25 +30,6 @@ function getTableContentJson(requestTable) {
     return tableRows;
 }
 
-function getCurrentDate() {
-    var today = new Date();
-    var dd = today.getDate();
-    var mm = today.getMonth() + 1; //January is 0!
-    var yyyy = today.getFullYear();
-
-    if (dd < 10) {
-        dd = '0' + dd
-    }
-
-    if (mm < 10) {
-        mm = '0' + mm
-    }
-
-    today = dd + ' - ' + mm + ' - ' + yyyy;
-
-    return today;
-}
-
 exports.getCommonJson = function (jsonData)
 {
     var requestTable = jsonData.table;
@@ -56,14 +37,13 @@ exports.getCommonJson = function (jsonData)
     var tableHeaderJson = getTableHeaderJson(requestTable[0]);
 
     var tableContentJson = getTableContentJson(requestTable);
-    var today = getCurrentDate();
 
     var result = new Object();
     result.tableHeader = tableHeaderJson;
     result.tableContent = tableContentJson;
     result.to = jsonData.to;
     result.from = jsonData.from;
-    result.subject = jsonData.subject + today;
+    result.subject = jsonData.subject;
 
     return result;
 }
