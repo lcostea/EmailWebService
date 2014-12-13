@@ -30,8 +30,7 @@ function getTableContentJson(requestTable) {
     return tableRows;
 }
 
-exports.getCommonJson = function (jsonData)
-{
+exports.getCommonJson = function (jsonData) {
     var requestTable = jsonData.table;
 
     var tableHeaderJson = getTableHeaderJson(requestTable[0]);
